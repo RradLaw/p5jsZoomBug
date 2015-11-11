@@ -7,7 +7,9 @@
 				cat=loadImage('cat.jpg');
 			}
 			function setup() {
-  				createCanvas(574, 710);
+  				// issue solved with below line
+				pixelDensity(1);
+				createCanvas(574, 710);
 				graph=createGraphics(574,710);
 			}
 			function draw() {

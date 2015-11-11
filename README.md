@@ -6,3 +6,9 @@ Problem exists with p5.js (v0.4.18) where if you zoom into a page which has a gr
 100% zoom: https://dl.dropboxusercontent.com/u/32400917/ShareX/2015-11-11_16-11-13.png
 
 110% zoom: https://dl.dropboxusercontent.com/u/32400917/ShareX/2015-11-11_16-11-38.png
+
+
+
+Issue solved with adding pixelDensity(1) at the start of the code.
+
+https://github.com/processing/p5.js/issues/1094#issuecomment-155751354
