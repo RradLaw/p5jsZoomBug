@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script src="p5.min.js"></script>
+		<script type="text/javascript">
+			var cat,graph;
+			function preload() {
+				cat=loadImage('cat.jpg');
+			}
+			function setup() {
+  				createCanvas(574, 710);
+				graph=createGraphics(574,710);
+			}
+			function draw() {
+				graph.image(cat,0,0);
+				image(graph,0,0);
+			}
+		</script>
+	</head>
+<body />
+</html>
